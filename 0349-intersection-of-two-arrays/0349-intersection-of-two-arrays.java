@@ -2,19 +2,23 @@ import java.util.ArrayList;
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         HashSet <Integer> set = new HashSet<>();
-        ArrayList <Integer> newArr = new ArrayList<>();
-        for(int i =0;i<nums1.length;i++){
-            set.add(nums1[i]);
+        ArrayList <Integer> list = new ArrayList<>();
+        for(int num : nums1){
+            set.add(num);
         }
-        int j=0;
-        for(int i =0;i<nums2.length;i++){
-            if(set.contains(nums2[i])){
-                newArr.add(nums2[i]);
-                set.remove(nums2[i]);
-                j++;
+        
+        for(int num : nums2){
+            if(set.contains(num)){
+                list.add(num);
+                set.remove(num);
             }
         }
-        return newArr.stream().mapToInt(Integer::intValue).toArray();
+
+        int []ans = new int[list.size()];
+        for(int i  =0;i<list.size();i++){
+            ans[i]= list.get(i);
+        }
+        return ans;
     }
     
 }
