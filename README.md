@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0141-linked-list-cycle) |
 | [0202-happy-number](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0202-happy-number) |
+| [0349-intersection-of-two-arrays](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0349-intersection-of-two-arrays) |
 ## Math
 |  |
 | ------- |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0141-linked-list-cycle) |
 | [0202-happy-number](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0202-happy-number) |
+| [0349-intersection-of-two-arrays](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0349-intersection-of-two-arrays) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
@@ -28,9 +30,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0349-intersection-of-two-arrays](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0349-intersection-of-two-arrays) |
 ## Linked List
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0141-linked-list-cycle) |
+## Binary Search
+|  |
+| ------- |
+| [0349-intersection-of-two-arrays](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0349-intersection-of-two-arrays) |
+## Sorting
+|  |
+| ------- |
+| [0349-intersection-of-two-arrays](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0349-intersection-of-two-arrays) |
 <!---LeetCode Topics End-->
