@@ -9,24 +9,57 @@
  * }
  */
 class Solution {
-    public boolean isPalindrome(ListNode head) {
-       ListNode current = head;
-        ArrayList<Integer> list = new ArrayList<>();
-       while(current != null){
-        list.add(current.val);
-        current = current.next;
-       }
+public boolean isPalindrome(ListNode head) {
 
-        int start = 0;
-        int end = list.size()-1;
-
-        while(start<end){
-            if(list.get(start) != list.get(end)){
-                return false;
-            } 
-            start++;
-            end--;
-        }
+    if (head == null || head.next == null) {
         return true;
     }
+
+    // 1. Find middle
+    ListNode slow = head;
+    ListNode fast = head;
+
+    while (fast != null && fast.next != null) {
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+
+    // 2. For odd length, skip the middle node
+    if (fast != null) {
+        slow = slow.next;
+    }
+
+    // 3. Reverse second half
+    ListNode secondHalf = reverse(slow);
+
+    // 4. Compare both halves
+    ListNode firstHalf = head;
+
+    while (secondHalf != null) {
+        if (firstHalf.val != secondHalf.val) {
+            return false;
+        }
+
+        firstHalf = firstHalf.next;
+        secondHalf = secondHalf.next;
+    }
+
+    return true;
+}
+
+private ListNode reverse(ListNode head) {
+
+    ListNode prev = null;
+    ListNode current = head;
+
+    while (current != null) {
+        ListNode next = current.next;
+
+        current.next = prev;
+        prev = current;
+        current = next;
+    }
+
+    return prev;
+}
 }
