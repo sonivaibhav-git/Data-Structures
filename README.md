@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0349-intersection-of-two-arrays](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0643-maximum-average-subarray-i](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0643-maximum-average-subarray-i) |
 ## Linked List
 |  |
 | ------- |
@@ -59,4 +60,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0234-palindrome-linked-list) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/sonivaibhav-git/Data-Structures/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
